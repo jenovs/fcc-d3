@@ -1,0 +1,44 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#app {
+  background-color: #eee;
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px gray;
+  margin: 1rem auto;
+  padding: 2rem;
+  width: 960px;
+}
+
+.bar {
+  fill: cornflowerblue;
+}
+
+.bar:hover {
+  fill: yellow;
+}
+
+.title-text {
+  font-size: 2rem;
+}
+
+.tooltip {
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 5px;
+  text-align: center;
+  width: 8rem;
+
+}
