@@ -1,0 +1,50 @@
+html,
+body {
+  box-sizing: border-box;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#app {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 50rem;
+  padding: 1rem;
+}
+
+#tooltip {
+  background-color: lightblue;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  /*display: none;*/
+  /*height: 1rem;*/
+  opacity: 0;
+  padding: 5px;
+  pointer-events: none;
+  /*transition: all 1s;*/
+  /*width: 10rem;*/
+}
+
+.dot {
+  stroke: gray;
+}
+
+.graph {
+  border: 2px solid gray;
+  border-radius: 5px;
+}
+
+.legend rect {
+  stroke: gray;
+}
